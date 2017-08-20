@@ -26,6 +26,19 @@ h2 {
   padding: 100px;
 }
 
+@media (max-width: 978px) {
+    .container {
+      padding:5px;
+      margin:5px;
+    }
+
+    /* Second Level */
+    ul {
+      padding-left:5px;
+      margin-left: 5px;
+    }
+  }
+
 img {
 	width: 100%;
 	height: auto;
@@ -33,6 +46,13 @@ img {
   padding-top: 40px;
   max-width: 280px;
 }
+
+@media (max-width: 978px) {
+    .container {
+      padding:5px;
+      margin:5px;
+    }
+  }
 
 .pulseEffect:hover {
   -webkit-animation: pulse 1s;
