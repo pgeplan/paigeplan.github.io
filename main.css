@@ -1,16 +1,15 @@
 body {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 14px;
-
 }
 
-h1 {
-  font-family: 'Zillo Slab', serif;
+h1 {  
+  font-family: 'Libre Franklin', sans-serif; 
   padding-bottom: 20px
 }
 
 h2 {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .highlight {
@@ -58,6 +57,10 @@ img {
   -webkit-animation: pulse 1s;
   animation: pulse 1s;
   animation-fill-mode: forwards;
+}
+
+a {
+  font-weight: 600;
 }
 
 a:link {
