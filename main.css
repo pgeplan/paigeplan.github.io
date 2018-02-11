@@ -1,26 +1,20 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 300;
+  font-family: 'Tinos', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  background: #f4ca11 !important;
 }
 
 h1 {  
-  font-family: 'Open Sans', sans-serif;
-  padding-bottom: 20px
+  padding-bottom: 20px;
 }
 
 h2 {
   font-size: 16px;
-}
-
-.highlight {
-  background-image: -webkit-linear-gradient(-45deg, #3F51B5 0%, #03A9F4 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
 }
 
 .container {
-  color: #455A64;
   margin: auto; 
   padding: 100px;
 }
@@ -60,29 +54,12 @@ img {
 }
 
 a {
-  font-weight: 600;
-}
-
-a:link {
-  background-image: -webkit-linear-gradient(-45deg, #3F51B5 0%, #03A9F4 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-a:visited {
-  background-image: -webkit-linear-gradient(-45deg, #3F51B5 0%, #03A9F4 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-a:active {
-  background-image: -webkit-linear-gradient(-45deg, #3F51B5 0%, #03A9F4 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #000000;
+  background: url('images/moving-underline.gif') repeat-x;
+  background-position: 0 100%;
 }
 
 a:hover{
-  background-image: linear-gradient(-45deg, #5166DC 0%, #6DA3EF 53%, #86D9FF 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #000000;
+  background: no-repeat;
 }
