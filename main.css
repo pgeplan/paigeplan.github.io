@@ -19,6 +19,30 @@ h2 {
   padding: 100px;
 }
 
+/* add a moving underline to links */
+/* credit to http://veryinteractive.net */
+
+a {
+  color: #000000;
+  background: url('images/moving-underline.gif') repeat-x;
+  background-position: 0 100%;
+}
+
+a:hover{
+  color: #000000;
+  background: no-repeat;
+}
+
+/* highlighting color override */
+
+::selection {
+  background: #37ff00; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #37ff00; /* Gecko Browsers */
+}
+
 @media (max-width: 978px) {
     .container {
       padding:5px;
@@ -51,15 +75,4 @@ img {
   -webkit-animation: pulse 1s;
   animation: pulse 1s;
   animation-fill-mode: forwards;
-}
-
-a {
-  color: #000000;
-  background: url('images/moving-underline.gif') repeat-x;
-  background-position: 0 100%;
-}
-
-a:hover{
-  color: #000000;
-  background: no-repeat;
 }
