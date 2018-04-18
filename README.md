@@ -1,2 +1,2 @@
 # paigeplan.github.io
-For my personal website, http://paigeplander.com/
+For my personal website, http://pgplander.com/
