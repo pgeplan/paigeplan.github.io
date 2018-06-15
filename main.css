@@ -17,6 +17,7 @@ h2 {
 .container {
   margin: auto; 
   padding: 100px;
+  width: 45%;
 }
 
 /* add a moving underline to links */
